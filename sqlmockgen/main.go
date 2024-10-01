@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/guzenok/go-sqltest/sqlmockgen/model"
+	"github.com/guzenok1/go-sqltest/sqlmockgen/model"
 )
 
 const (

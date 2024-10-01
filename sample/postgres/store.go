@@ -7,7 +7,7 @@ import (
 	_ "github.com/lib/pq" // postgresql driver
 	"github.com/pkg/errors"
 
-	store "github.com/guzenok/go-sqltest/sample"
+	store "github.com/guzenok1/go-sqltest/sample"
 )
 
 //go:generate go run ../../sqlmockgen -out=sql_test.go -db=postgresql://postgres:postgres@localhost:5432/test?sslmode=disable .

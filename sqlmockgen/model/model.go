@@ -15,7 +15,7 @@ import (
 
 const (
 	// ImportPath of current package.
-	ImportPath = "github.com/guzenok/go-sqltest/sqlmockgen/model"
+	ImportPath = "github.com/guzenok1/go-sqltest/sqlmockgen/model"
 	compiler   = "source"
 )
 

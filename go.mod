@@ -1,4 +1,4 @@
-module github.com/guzenok/go-sqltest
+module github.com/guzenok1/go-sqltest
 
 require (
 	github.com/DATA-DOG/go-sqlmock v1.3.3

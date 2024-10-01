@@ -9,7 +9,7 @@ import (
 	"github.com/golang-migrate/migrate/v4/database/postgres"
 	"github.com/golang-migrate/migrate/v4/source/go_bindata"
 
-	"github.com/guzenok/go-sqltest/sample/postgres/migrations"
+	"github.com/guzenok1/go-sqltest/sample/postgres/migrations"
 )
 
 //go:generate go run github.com/kevinburke/go-bindata/go-bindata -o ./migrations/bindata.go -pkg migrations -ignore=\\*.go ./migrations/...

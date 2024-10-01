@@ -7,13 +7,13 @@ import (
 	"go/format"
 	"testing"
 
-	"github.com/guzenok/go-sqltest/sqlmockgen/model"
-	"github.com/guzenok/go-sqltest/sqlmockgen/recorder"
+	"github.com/guzenok1/go-sqltest/sqlmockgen/model"
+	"github.com/guzenok1/go-sqltest/sqlmockgen/recorder"
 )
 
 const (
 	// ImportPath of current package.
-	ImportPath = "github.com/guzenok/go-sqltest/sqlmockgen/generator"
+	ImportPath = "github.com/guzenok1/go-sqltest/sqlmockgen/generator"
 )
 
 var imports = []string{

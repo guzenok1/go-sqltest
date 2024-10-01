@@ -12,8 +12,8 @@ Installation
 Once you have [installed Go][golang-install], run these commands
 to install the `sqlmockgen` tool:
 
-    go get github.com/guzenok/go-sqltest
-    go install github.com/guzenok/go-sqltest/sqlmockgen
+    go get github.com/guzenok1/go-sqltest
+    go install github.com/guzenok1/go-sqltest/sqlmockgen
 
 
 Running sqlmockgen
@@ -41,13 +41,13 @@ sqlmockgen -out=sql_test.go -db=postgresql://postgres:postgres@localhost:5432/te
 Example for gotten:
 
 ```sh
-go run github.com/guzenok/go-sqltest/sqlmockgen -out=sql_test.go -db=postgresql://postgres:postgres@localhost:5432/test?sslmode=disable .
+go run github.com/guzenok1/go-sqltest/sqlmockgen -out=sql_test.go -db=postgresql://postgres:postgres@localhost:5432/test?sslmode=disable .
 ```
 	
 Example for go generate:
 
 ```go
-//go:generate go run github.com/guzenok/go-sqltest/sqlmockgen -out=sql_test.go -db=postgresql://postgres:postgres@localhost:5432/test?sslmode=disable .
+//go:generate go run github.com/guzenok1/go-sqltest/sqlmockgen -out=sql_test.go -db=postgresql://postgres:postgres@localhost:5432/test?sslmode=disable .
 ```
 
 For an example of the `sqlmockgen` using, see the [sample/](./sample) directory.

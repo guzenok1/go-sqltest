@@ -5,7 +5,7 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	store "github.com/guzenok/go-sqltest/sample"
+	store "github.com/guzenok1/go-sqltest/sample"
 )
 
 func (s *postgresStore) CreateUser(ctx context.Context, in *store.User) (out *store.User, err error) {

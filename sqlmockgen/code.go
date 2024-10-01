@@ -4,8 +4,8 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/guzenok/go-sqltest/sqlmockgen/generator"
-	"github.com/guzenok/go-sqltest/sqlmockgen/model"
+	"github.com/guzenok1/go-sqltest/sqlmockgen/generator"
+	"github.com/guzenok1/go-sqltest/sqlmockgen/model"
 )
 
 type Descr struct {
